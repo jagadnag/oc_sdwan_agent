@@ -1,0 +1,6 @@
+{
+  "executive_summary": "Fabric is risk-elevated: controllers are reachable, but 1 device(s) are unreachable and alarm pressure is high (Critical=43, High=49). Primary risk is branch resource saturation, not control-plane collapse.",
+  "ccie_summary": "Sastre state snapshot shows BFD 36/36 up, control 26/26 up, and OMP 7/7 up. Inventory/state skew should be validated for unreachable nodes with realtime checks. Alarm concentration is highest on site2-cedge01, my-10-f33116-mc01 (memory/cpu dominant).",
+  "findings": "- Controllers reachable: 3/3\n- Unreachable devices: 1\n- Alarm distribution: Critical 43, High 49, Medium 4, Low 4\n- Top alarm types: memory-usage (67), cpu-usage (33)\n- Certificates valid: 40/40",
+  "recommendations": "1) Validate unreachable devices with Sastre realtime checks and controller telemetry correlation.\n2) Prioritize CPU/memory remediation on top alarming edges; review services, logging, and process utilization.\n3) Apply phased remediation (canary -> regional -> global) with rollback checkpoints.\n4) Tune alarm baselines and dampening to reduce noise while preserving critical safety alerts."
+}

@@ -1,0 +1,4 @@
+name,host,port,role,datacenter,description
+prod-manager,10.10.10.10,443,primary,dc1,Production SD-WAN Manager - Primary
+dr-manager,10.10.20.10,443,secondary,dc2,Production SD-WAN Manager - DR
+lab-manager,192.168.1.10,443,lab,lab,Lab SD-WAN Manager for Testing

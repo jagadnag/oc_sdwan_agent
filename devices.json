@@ -1,0 +1,73 @@
+[
+  {
+    "header": {
+      "name": "",
+      "title": {
+        "column_0": "Name",
+        "column_1": "System IP",
+        "column_2": "Site ID",
+        "column_3": "Reachability",
+        "column_4": "Type",
+        "column_5": "Model"
+      }
+    },
+    "data": [
+      {
+        "column_0": "dc-cedge01",
+        "column_1": "10.10.1.11",
+        "column_2": "100",
+        "column_3": "unreachable",
+        "column_4": "cedge",
+        "column_5": "vedge-C8000V"
+      },
+      {
+        "column_0": "my-10-f33116-mc01",
+        "column_1": "10.10.1.13",
+        "column_2": "1001",
+        "column_3": "reachable",
+        "column_4": "cedge",
+        "column_5": "vedge-C8000V"
+      },
+      {
+        "column_0": "site2-cedge01",
+        "column_1": "10.10.1.15",
+        "column_2": "1002",
+        "column_3": "reachable",
+        "column_4": "cedge",
+        "column_5": "vedge-C8000V"
+      },
+      {
+        "column_0": "site3-vedge01",
+        "column_1": "10.10.1.17",
+        "column_2": "1003",
+        "column_3": "reachable",
+        "column_4": "vedge",
+        "column_5": "vedge-cloud"
+      },
+      {
+        "column_0": "vbond",
+        "column_1": "10.10.1.3",
+        "column_2": "101",
+        "column_3": "reachable",
+        "column_4": "vbond",
+        "column_5": "vedge-cloud"
+      },
+      {
+        "column_0": "vmanage",
+        "column_1": "10.10.1.1",
+        "column_2": "101",
+        "column_3": "reachable",
+        "column_4": "vmanage",
+        "column_5": "vmanage"
+      },
+      {
+        "column_0": "vsmart",
+        "column_1": "10.10.1.5",
+        "column_2": "101",
+        "column_3": "reachable",
+        "column_4": "vsmart",
+        "column_5": "vsmart"
+      }
+    ]
+  }
+]

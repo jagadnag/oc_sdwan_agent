@@ -1,0 +1,296 @@
+[
+  {
+    "header": {
+      "name": "",
+      "title": {
+        "column_0": "Hostname",
+        "column_1": "Chassis",
+        "column_2": "Serial",
+        "column_3": "State",
+        "column_4": "Status"
+      }
+    },
+    "data": [
+      {
+        "column_0": "-",
+        "column_1": "0140a336-5fd5-9829-10d2-f6ba0b177efd",
+        "column_2": "083dd635d1d243168cfccfdce431ab5d",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "28cf0969-8d53-3b22-d4a9-decff97c1748",
+        "column_2": "99c9223e319bc5e1e47e264203ad2e73",
+        "column_3": "bootstrap config generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "51282661-4839-b2ef-0885-d518b332f39c",
+        "column_2": "ffdf0ac8aae9419de52f3dd528e0bb08",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "9da106a3-a996-a04d-d730-13748e46b9f5",
+        "column_2": "8d8e2533e35c674ebb686e3244e45664",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-0173C5B9-021E-47C8-73C2-66888B2542D6",
+        "column_2": "b39b9a33aaee4ae7ac0365c16cfc9923",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-01ECDCF4-C9B6-195C-1B11-A9EB9208DEDC",
+        "column_2": "178e533d813a43a589d4206b3b340049",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-50D7F882-1834-3CD3-2D93-EC4AC2C78FE1",
+        "column_2": "9d3d201b1fb94cb8a6bade27b3a2c5f6",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-736B6637-764E-C672-5220-735A83211BDB",
+        "column_2": "5a5336340e5b4323abe81e6e55e2f886",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-8AEAF191-3A91-2247-7EFD-B004B2061870",
+        "column_2": "b2269d08c8be47fd99ed6701d48deacf",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-99FAD94E-8C24-E04A-B73B-627B35C3155D",
+        "column_2": "29993b857ac34740964a42346c7080b4",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-AC2ACAD7-1027-FA12-82F3-3293D094BC32",
+        "column_2": "8a9140ba65484e9a8b0cdc14051cee57",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-C4F1772D-0981-3037-7F6A-06DDA7AD5545",
+        "column_2": "2da1b9fa954e4f67934638ea2c1a1acc",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-DF2DF7EC-AA59-CC87-ED79-0156E7E103C1",
+        "column_2": "1d6f1391d818441385a4181d64968aae",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-E871E57B-186B-E3E4-B176-D223E0F43100",
+        "column_2": "7b7618668883474aa4da855383478960",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-F4D1A615-A44E-8B9E-F5DE-9316F07CC5EC",
+        "column_2": "a4103e5c3f3d4e5785959636de7e2872",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "C8K-FE15F76C-FBA3-64A6-7224-D3652A785D38",
+        "column_2": "31acc1a42bb4430eb743f7a05e8f1fcb",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-0736C41A-616D-CB0F-626C-317D37949B35",
+        "column_2": "05caccb8dd04cdc3176e57fe71462bb5",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-2EF56F1B-2F8D-7203-8B93-F6CF6522C464",
+        "column_2": "37a02e4d026478a654cfd2d2f148707c",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-4B77EA61-A709-DD7A-F20C-7DDAE78A2123",
+        "column_2": "51114ae6c7874914e962845e105cbfed",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-61CD2335-4775-650F-8538-4EC7BDFFD04C",
+        "column_2": "5ae0563d5a3f42caa1f4653911142fcc",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-807E37A3-537A-07BA-BD71-8FB76DE9DC38",
+        "column_2": "245e5f42474c47c4b30f1bd193a9b5cd",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-82DEC3C6-3A28-B866-6F4A-000000000001",
+        "column_2": "e9a55a6a310a8cd5b57608a6e285c8c7",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-82DEC3C6-3A28-B866-6F4A-000000000002",
+        "column_2": "52b1820e9c520b56df9f7d4dab9663ff",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-82DEC3C6-3A28-B866-6F4A-000000000003",
+        "column_2": "ce80e8ccce7d3ce5b4b120d050298bbd",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-82DEC3C6-3A28-B866-6F4A-000000000004",
+        "column_2": "66360a62e8e15027a31a0b08cca90837",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-82DEC3C6-3A28-B866-6F4A-000000000005",
+        "column_2": "3649c4ccf318d8ec65761b959a49ce95",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-9DCA1479-197A-D846-BC0B-DEF6691FC702",
+        "column_2": "e8516b539b3249013c2b07c1b95a7d1f",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-DE6DAB19-BA1A-E543-959C-FD117F4A6205",
+        "column_2": "689478615f164b359111164bc04fd535",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-E4A417B5-2A69-2757-2834-15201E590715",
+        "column_2": "a14cb777fb1e160b23c59a921f2ce111",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-E9C755D4-B5B6-8851-F428-3BE65BF0FC45",
+        "column_2": "795d33fd2ca9914de79550cdf8c2af81",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "CSR-FD0FD29E-73B1-9D53-086B-B42CC6D7EAF8",
+        "column_2": "88cda07f14082914a30ff9c6961fd710",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "bc6a40c6-5d72-87b9-091e-d6e249e858a6",
+        "column_2": "24bd3e5566a6e2f2ca88c03281c8cf88",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "ee21d0c5-1716-6231-fff3-f08836274edf",
+        "column_2": "81158d6fb13c1341ea8c15f5d6601acb",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "eec89277-0766-1dc2-15a4-70351a1f6686",
+        "column_2": "32b2d965bd46c45e205c9337e6d43319",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "f5974371-428d-bac8-bfa4-5fc746ecbb3b",
+        "column_2": "70e326587e2b0b73d0858faebcfd8a8e",
+        "column_3": "bootstrap config generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "-",
+        "column_1": "ff58d86c-519b-5c94-5d21-061922197ecf",
+        "column_2": "2357ec3f15a3fd6bdec0b5e24ed55297",
+        "column_3": "token generated",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "dc-cedge01",
+        "column_1": "C8K-E2D91A30-814B-F22D-4E7B-7D39BE74EE32",
+        "column_2": "756C5620",
+        "column_3": "certificate installed",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "my-10-f33116-mc01",
+        "column_1": "C8K-7B7B98B0-4FF2-273A-D915-9CC9DC3B835C",
+        "column_2": "1CD8DEDA",
+        "column_3": "certificate installed",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "site2-cedge01",
+        "column_1": "C8K-54A8601A-DFA6-9446-6E31-F06E42F1EFC6",
+        "column_2": "6ED0F19A",
+        "column_3": "certificate installed",
+        "column_4": "valid"
+      },
+      {
+        "column_0": "site3-vedge01",
+        "column_1": "dac3e7f5-b48f-d29b-0685-d3bb4b2ea991",
+        "column_2": "1701BB87",
+        "column_3": "certificate installed",
+        "column_4": "valid"
+      }
+    ]
+  }
+]

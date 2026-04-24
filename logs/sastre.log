@@ -1,0 +1,204 @@
+2026-04-13 16:43:52,799: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 16:43:54,997: TaskShow: INFO: Show devices task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:43:55,068: TaskShow: INFO: Device selection matched 7 devices
+2026-04-13 16:43:55,068: TaskShow: INFO: Tables exported as JSON file 'devices.json'
+2026-04-13 16:43:55,143: TaskShow: INFO: Task completed successfully
+2026-04-13 16:44:01,767: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 16:44:04,051: TaskShow: INFO: Show alarms task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:04,171: TaskShow: INFO: Records query: 2026-04-12 20:44:04 UTC -> 2026-04-13 21:44:04 UTC
+2026-04-13 16:44:04,881: TaskShow: INFO: Tables exported as JSON file 'alarms.json'
+2026-04-13 16:44:04,973: TaskShow: INFO: Task completed successfully
+2026-04-13 16:44:08,661: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 16:44:10,876: TaskShow: INFO: Show state task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:10,947: TaskShow: INFO: Device selection matched 7 devices
+2026-04-13 16:44:10,948: TaskShow: INFO: Retrieving system info for 7 devices
+2026-04-13 16:44:11,022: TaskShow: INFO: Retrieving bfd sessions for 7 devices
+2026-04-13 16:44:11,104: TaskShow: INFO: BFD sessions missing for vbond
+2026-04-13 16:44:11,104: TaskShow: INFO: BFD sessions missing for vmanage
+2026-04-13 16:44:11,104: TaskShow: INFO: BFD sessions missing for vsmart
+2026-04-13 16:44:11,104: TaskShow: INFO: Retrieving control connections for 7 devices
+2026-04-13 16:44:11,177: TaskShow: INFO: Control connections missing for vbond
+2026-04-13 16:44:11,177: TaskShow: INFO: Retrieving control local-properties for 7 devices
+2026-04-13 16:44:11,267: TaskShow: INFO: Control local-properties missing for vbond
+2026-04-13 16:44:11,267: TaskShow: INFO: Retrieving vedge interfaces for 7 devices
+2026-04-13 16:44:11,341: TaskShow: INFO: vEdge interfaces missing for dc-cedge01
+2026-04-13 16:44:11,341: TaskShow: INFO: vEdge interfaces missing for my-10-f33116-mc01
+2026-04-13 16:44:11,341: TaskShow: INFO: vEdge interfaces missing for site2-cedge01
+2026-04-13 16:44:11,341: TaskShow: INFO: Retrieving cedge interfaces for 7 devices
+2026-04-13 16:44:11,429: TaskShow: INFO: cEdge interfaces missing for site3-vedge01
+2026-04-13 16:44:11,429: TaskShow: INFO: cEdge interfaces missing for vbond
+2026-04-13 16:44:11,429: TaskShow: INFO: cEdge interfaces missing for vmanage
+2026-04-13 16:44:11,429: TaskShow: INFO: cEdge interfaces missing for vsmart
+2026-04-13 16:44:11,429: TaskShow: INFO: Retrieving omp peers for 7 devices
+2026-04-13 16:44:11,507: TaskShow: INFO: OMP peers missing for vbond
+2026-04-13 16:44:11,507: TaskShow: INFO: OMP peers missing for vmanage
+2026-04-13 16:44:11,508: TaskShow: INFO: Tables exported as JSON file 'state.json'
+2026-04-13 16:44:11,582: TaskShow: INFO: Task completed successfully
+2026-04-13 16:44:15,965: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 16:44:20,223: TaskList: INFO: List certificate task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:20,223: TaskList: DEBUG: Starting certificate subtask
+2026-04-13 16:44:21,876: TaskList: INFO: Selection matched 40 items
+2026-04-13 16:44:21,877: TaskList: INFO: Table exported as JSON file 'certificates.json'
+2026-04-13 16:44:39,405: TaskList: INFO: Task completed successfully
+2026-04-13 16:44:43,081: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 16:44:48,165: TaskReport: INFO: Report create task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com" -> "report_20260413.txt"
+2026-04-13 16:44:48,165: TaskReport: INFO: Loading report specification
+2026-04-13 16:44:48,165: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:48,165: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:44:53,871: TaskList: DEBUG: Loaded remote configuration group index
+2026-04-13 16:44:53,871: TaskList: INFO: Selection matched 0 items
+2026-04-13 16:44:53,871: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:53,871: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:44:53,872: TaskList: INFO: Selection matched 0 items
+2026-04-13 16:44:53,872: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:53,872: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:44:53,872: TaskList: INFO: Selection matched 0 items
+2026-04-13 16:44:53,872: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:44:53,872: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:44:56,545: TaskList: DEBUG: Loaded remote SDWAN system profile index
+2026-04-13 16:44:56,720: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.186s
+2026-04-13 16:44:56,972: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.314s
+2026-04-13 16:44:57,398: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 3/10, backoff 0.915s
+2026-04-13 16:45:00,696: TaskList: DEBUG: Loaded remote SDWAN service profile index
+2026-04-13 16:45:09,835: TaskList: DEBUG: Loaded remote SDWAN transport profile index
+2026-04-13 16:45:10,000: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.222s
+2026-04-13 16:45:10,332: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.419s
+2026-04-13 16:45:10,865: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 3/10, backoff 0.791s
+2026-04-13 16:45:11,813: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 4/10, backoff 1.84s
+2026-04-13 16:45:15,882: TaskList: DEBUG: Loaded remote SDWAN CLI profile index
+2026-04-13 16:45:19,520: TaskList: DEBUG: Loaded remote SDWAN other profile index
+2026-04-13 16:45:19,520: TaskList: INFO: Selection matched 0 items
+2026-04-13 16:45:19,520: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:45:19,520: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:45:19,683: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.188s
+2026-04-13 16:45:19,929: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.378s
+2026-04-13 16:45:27,097: TaskList: DEBUG: Loaded remote SDWAN policy object index
+2026-04-13 16:45:27,097: TaskList: INFO: Selection matched 0 items
+2026-04-13 16:45:27,097: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:45:27,097: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:45:27,261: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.242s
+2026-04-13 16:45:27,615: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.46s
+2026-04-13 16:45:28,186: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 3/10, backoff 0.922s
+2026-04-13 16:45:29,272: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 4/10, backoff 1.31s
+2026-04-13 16:45:30,748: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 5/10, backoff 2.64s
+2026-04-13 16:45:35,620: TaskList: DEBUG: Loaded remote device template index
+2026-04-13 16:45:35,620: TaskList: INFO: Selection matched 23 items
+2026-04-13 16:45:35,620: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:45:35,620: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 16:45:39,830: TaskList: DEBUG: Loaded remote feature template index
+2026-04-13 16:45:39,831: TaskList: INFO: Selection matched 164 items
+2026-04-13 16:45:39,831: TaskList: INFO: List configuration task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 16:45:39,831: TaskList: DEBUG: Starting configuration subtask
+2026-04-13 17:06:45,284: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:06:59,714: TaskShow: INFO: Show devices task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 17:06:59,894: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.174s
+2026-04-13 17:07:00,130: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.324s
+2026-04-13 17:07:00,580: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 3/10, backoff 0.699s
+2026-04-13 17:07:01,398: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 4/10, backoff 1.48s
+2026-04-13 17:07:03,048: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 5/10, backoff 3.23s
+2026-04-13 17:07:06,459: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 6/10, backoff 6.45s
+2026-04-13 17:07:13,083: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 7/10, backoff 6.96s
+2026-04-13 17:07:20,211: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 8/10, backoff 6.19s
+2026-04-13 17:07:26,570: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 9/10, backoff 5.82s
+2026-04-13 17:07:32,557: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 10/10, backoff 5.3s
+2026-04-13 17:07:38,027: cisco_sdwan.__main__: CRITICAL: Maximum retries exceeded (10)
+2026-04-13 17:07:38,375: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:07:38,787: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:07:39,115: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:07:39,456: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:07:39,780: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:07:40,156: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:09:30,848: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:09:31,244: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:09:31,573: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:09:31,935: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:09:32,262: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:09:32,618: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-13 17:12:51,702: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:12:53,812: TaskShow: INFO: Show devices task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 17:12:53,881: TaskShow: INFO: Device selection matched 7 devices
+2026-04-13 17:12:53,954: TaskShow: INFO: Task completed successfully
+2026-04-13 17:13:31,572: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:13:33,773: TaskShow: INFO: Show devices task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 17:13:33,839: TaskShow: INFO: Device selection matched 7 devices
+2026-04-13 17:13:33,923: TaskShow: INFO: Task completed successfully
+2026-04-13 17:13:34,217: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:13:37,953: TaskShow: INFO: Show alarms task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 17:13:38,113: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.247s
+2026-04-13 17:13:38,467: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.301s
+2026-04-13 17:13:38,836: TaskShow: INFO: Records query: 2026-04-12 21:13:38 UTC -> 2026-04-13 22:13:38 UTC
+2026-04-13 17:13:41,002: TaskShow: INFO: Task completed successfully
+2026-04-13 17:13:41,300: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-13 17:13:43,617: TaskList: INFO: List certificate task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-13 17:13:43,617: TaskList: DEBUG: Starting certificate subtask
+2026-04-13 17:13:43,704: TaskList: INFO: Selection matched 40 items
+2026-04-13 17:13:43,775: TaskList: INFO: Task completed successfully
+2026-04-14 01:18:12,298: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 01:18:17,729: TaskShow: INFO: Show devices task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-14 01:18:17,888: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.233s
+2026-04-14 01:18:18,196: TaskShow: INFO: Device selection matched 7 devices
+2026-04-14 01:18:18,197: TaskShow: INFO: Tables exported as JSON file 'devices.json'
+2026-04-14 01:18:18,278: TaskShow: INFO: Task completed successfully
+2026-04-14 01:18:18,595: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 01:18:20,743: TaskShow: INFO: Show alarms task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-14 01:18:20,835: TaskShow: INFO: Records query: 2026-04-13 05:18:20 UTC -> 2026-04-14 06:18:20 UTC
+2026-04-14 01:18:21,438: TaskShow: INFO: Tables exported as JSON file 'alarms.json'
+2026-04-14 01:18:21,526: TaskShow: INFO: Task completed successfully
+2026-04-14 01:18:21,835: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 01:18:23,954: TaskShow: INFO: Show state task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-14 01:18:24,025: TaskShow: INFO: Device selection matched 7 devices
+2026-04-14 01:18:24,025: TaskShow: INFO: Retrieving system info for 7 devices
+2026-04-14 01:18:24,096: TaskShow: INFO: Retrieving bfd sessions for 7 devices
+2026-04-14 01:18:24,164: TaskShow: INFO: BFD sessions missing for vbond
+2026-04-14 01:18:24,164: TaskShow: INFO: BFD sessions missing for vmanage
+2026-04-14 01:18:24,164: TaskShow: INFO: BFD sessions missing for vsmart
+2026-04-14 01:18:24,164: TaskShow: INFO: Retrieving control connections for 7 devices
+2026-04-14 01:18:24,228: TaskShow: INFO: Control connections missing for vbond
+2026-04-14 01:18:24,228: TaskShow: INFO: Retrieving control local-properties for 7 devices
+2026-04-14 01:18:24,307: TaskShow: INFO: Control local-properties missing for vbond
+2026-04-14 01:18:24,307: TaskShow: INFO: Retrieving vedge interfaces for 7 devices
+2026-04-14 01:18:24,374: TaskShow: INFO: vEdge interfaces missing for dc-cedge01
+2026-04-14 01:18:24,374: TaskShow: INFO: vEdge interfaces missing for my-10-f33116-mc01
+2026-04-14 01:18:24,374: TaskShow: INFO: vEdge interfaces missing for site2-cedge01
+2026-04-14 01:18:24,374: TaskShow: INFO: Retrieving cedge interfaces for 7 devices
+2026-04-14 01:18:24,471: TaskShow: INFO: cEdge interfaces missing for site3-vedge01
+2026-04-14 01:18:24,472: TaskShow: INFO: cEdge interfaces missing for vbond
+2026-04-14 01:18:24,472: TaskShow: INFO: cEdge interfaces missing for vmanage
+2026-04-14 01:18:24,472: TaskShow: INFO: cEdge interfaces missing for vsmart
+2026-04-14 01:18:24,472: TaskShow: INFO: Retrieving omp peers for 7 devices
+2026-04-14 01:18:24,550: TaskShow: INFO: OMP peers missing for vbond
+2026-04-14 01:18:24,550: TaskShow: INFO: OMP peers missing for vmanage
+2026-04-14 01:18:24,551: TaskShow: INFO: Tables exported as JSON file 'state.json'
+2026-04-14 01:18:24,696: TaskShow: INFO: Task completed successfully
+2026-04-14 01:18:25,003: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 01:18:28,098: TaskList: INFO: List certificate task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-14 01:18:28,098: TaskList: DEBUG: Starting certificate subtask
+2026-04-14 01:18:29,974: TaskList: INFO: Selection matched 40 items
+2026-04-14 01:18:29,975: TaskList: INFO: Table exported as JSON file 'certificates.json'
+2026-04-14 01:18:32,065: TaskList: INFO: Task completed successfully
+2026-04-14 10:15:11,388: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:15:11,810: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:15:12,174: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:15:12,568: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:15:12,916: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:15:13,273: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:15:13,624: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:15:13,981: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:49:54,052: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:49:54,599: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:49:54,953: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:49:55,368: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:49:55,725: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:49:56,097: cisco_sdwan.__main__: CRITICAL: 503 Server Error: Service Unavailable for url: https://sandbox-sdwan-2.cisco.com/j_security_check
+2026-04-14 10:49:56,446: cisco_sdwan.base.rest_api: DEBUG: Using username/password credentials to authenticate with SD-WAN Manager
+2026-04-14 10:50:17,545: TaskList: INFO: List certificate task: SD-WAN Manager URL: "https://sandbox-sdwan-2.cisco.com"
+2026-04-14 10:50:17,546: TaskList: DEBUG: Starting certificate subtask
+2026-04-14 10:50:17,721: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 1/10, backoff 0.22s
+2026-04-14 10:50:18,085: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 2/10, backoff 0.38s
+2026-04-14 10:50:18,576: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 3/10, backoff 0.931s
+2026-04-14 10:50:19,681: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 4/10, backoff 1.43s
+2026-04-14 10:50:21,282: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 5/10, backoff 2.5s
+2026-04-14 10:50:23,988: cisco_sdwan.base.rest_api: DEBUG: Received rate-limit signal (status-code 503): Retry 6/10, backoff 6.71s
+2026-04-14 10:50:39,052: TaskList: INFO: Selection matched 40 items
+2026-04-14 10:50:39,053: TaskList: INFO: Table exported as JSON file 'certificates.json'
+2026-04-14 10:50:39,247: TaskList: INFO: Task completed successfully

@@ -1,0 +1,163 @@
+{
+  "report_metadata": {
+    "generated_timestamp": "2026-04-16 12:39:07 UTC",
+    "vmanage_url": "https://vmanage.example.com",
+    "report_type": "Daily Health Check",
+    "generated_by": "SD-WAN Operator Agent"
+  },
+  "executive_summary": {
+    "overall_health_score": 75.5,
+    "health_status": "FAIR",
+    "health_color": "YELLOW",
+    "critical_issues_count": 2,
+    "high_priority_issues_count": 2,
+    "devices_total": 7,
+    "devices_online": 6,
+    "devices_offline": 1
+  },
+  "device_inventory": {
+    "total_devices": 7,
+    "online_count": 6,
+    "offline_count": 1,
+    "online_percentage": 85.7,
+    "devices": [
+      {
+        "name": "BR1-vEdge01",
+        "ip": "10.1.1.1",
+        "type": "vEdge",
+        "status": "online",
+        "version": "20.10.1",
+        "uptime": "45d 12h",
+        "region": "Americas"
+      },
+      {
+        "name": "BR2-cEdge01",
+        "ip": "10.1.2.1",
+        "type": "cEdge",
+        "status": "online",
+        "version": "17.09.03a",
+        "uptime": "23d 8h",
+        "region": "Americas"
+      },
+      {
+        "name": "BR3-vEdge01",
+        "ip": "10.1.3.1",
+        "type": "vEdge",
+        "status": "offline",
+        "version": "20.10.1",
+        "uptime": "0d 0h",
+        "region": "EMEA"
+      },
+      {
+        "name": "HQ-vSmart01",
+        "ip": "10.0.1.10",
+        "type": "vSmart",
+        "status": "online",
+        "version": "20.10.1",
+        "uptime": "67d 14h",
+        "region": "Americas"
+      },
+      {
+        "name": "HQ-vSmart02",
+        "ip": "10.0.1.11",
+        "type": "vSmart",
+        "status": "online",
+        "version": "20.10.1",
+        "uptime": "67d 14h",
+        "region": "Americas"
+      },
+      {
+        "name": "HQ-vManage01",
+        "ip": "10.0.1.5",
+        "type": "vManage",
+        "status": "online",
+        "version": "20.10.1",
+        "uptime": "89d 3h",
+        "region": "Americas"
+      },
+      {
+        "name": "HQ-vBond01",
+        "ip": "203.0.113.10",
+        "type": "vBond",
+        "status": "online",
+        "version": "20.10.1",
+        "uptime": "89d 3h",
+        "region": "Americas"
+      }
+    ]
+  },
+  "control_plane_health": {
+    "omp_sessions_total": 6,
+    "omp_sessions_up": 4,
+    "omp_sessions_down": 2,
+    "omp_up_percentage": 66.7,
+    "bfd_sessions_total": 6,
+    "bfd_sessions_up": 4,
+    "bfd_sessions_down": 2,
+    "bfd_up_percentage": 66.7
+  },
+  "data_plane_health": {
+    "tunnels_total": 7,
+    "tunnels_up": 5,
+    "tunnels_down": 2,
+    "tunnels_up_percentage": 71.4,
+    "interfaces_total": 6,
+    "interfaces_up": 4,
+    "interfaces_down": 2,
+    "interfaces_up_percentage": 66.7
+  },
+  "certificate_status": {
+    "total_certificates": 7,
+    "valid_certificates": 5,
+    "warning_certificates": 1,
+    "critical_certificates": 1,
+    "valid_percentage": 71.4,
+    "certificates_expiring_soon": [
+      {
+        "device": "HQ-vManage01",
+        "days_left": 9,
+        "status": "Critical"
+      },
+      {
+        "device": "BR3-vEdge01",
+        "days_left": 24,
+        "status": "Warning"
+      }
+    ]
+  },
+  "alarms_summary": {
+    "critical_alarms": 2,
+    "major_alarms": 2,
+    "warning_alarms": 2,
+    "minor_alarms": 1,
+    "total_active_alarms": 7
+  },
+  "resource_utilization": {
+    "high_cpu_devices": [
+      "BR1-vEdge01"
+    ],
+    "high_memory_devices": [
+      "HQ-vManage01"
+    ],
+    "high_disk_devices": [],
+    "resource_health_percentage": 85.7
+  },
+  "policy_compliance": {
+    "templates_attached": 7,
+    "templates_in_sync": 6,
+    "templates_out_of_sync": 1,
+    "compliance_percentage": 85.7
+  },
+  "critical_actions": [
+    {
+      "priority": "P1 - CRITICAL",
+      "issue": "BR3-vEdge01 completely offline",
+      "timeline": "Within 1 hour"
+    },
+    {
+      "priority": "P1 - CRITICAL",
+      "issue": "HQ-vManage01 certificate expires in 9 days",
+      "timeline": "Within 24 hours"
+    }
+  ]
+}
